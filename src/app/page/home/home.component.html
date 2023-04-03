@@ -1,0 +1,65 @@
+<div fxLayout="row">   <!-- div za flex dodatak-->
+  <div class="first-div" fxFlex="30%">
+    <p>
+    What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
+type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</p>  
+</div>
+
+  <div class="second-div" fxFlex="70%">
+    <img  style="width: 15%; height: auto;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png">
+
+  </div>
+</div>
+
+<!--
+<ng-container *ngFor="let page of pages2">-->
+  <!-- <button *ngIf="page.subPages.length >  0" mat-button>HOME</button>-->
+  <!-- 
+  <button *ngIf="page.subPages.length ==  0" mat-button>{{page.pageTitle}}</button>
+  <ng-container *ngIf="page.subPages.length > 0"> -->
+    <!--
+    <button mat-button [matMenuTriggerFor]="aboveMenu">Above</button>
+    <mat-menu #aboveMenu="matMenu" yPosition="above">
+      <button mat-menu-item>Item 1</button>
+      <button mat-menu-item>Item 2</button>
+    </mat-menu>
+     -->
+     <!--
+    <button mat-button [matMenuTriggerFor]="aboveMenu">{{page.pageTitle}}</button>
+    <mat-menu #aboveMenu="matMenu" yPosition="above" >
+      <button (click)="subPageClick(item.link)" *ngFor="let item of page.subPages" mat-menu-item>{{item.pageTitle}}</button>
+    </mat-menu>
+   
+
+</ng-container> 
+</ng-container>
+-->
+<!--
+
+<button mat-button [matMenuTriggerFor]="aboveMenu">Above</button>
+<mat-menu #aboveMenu="matMenu" yPosition="above">
+  <button mat-menu-item>Item 1</button>
+  <button mat-menu-item>Item 2</button>
+</mat-menu>
+
+<button mat-button [matMenuTriggerFor]="belowMenu">Below</button>
+<mat-menu #belowMenu="matMenu" yPosition="below">
+  <button mat-menu-item>Item 1</button>
+  <button mat-menu-item>Item 2</button>
+</mat-menu>
+
+<button mat-button [matMenuTriggerFor]="beforeMenu">Before</button>
+<mat-menu #beforeMenu="matMenu" xPosition="before">
+  <button mat-menu-item>Item 1</button>
+  <button mat-menu-item>Item 2</button>
+</mat-menu>
+
+
+<button mat-button [matMenuTriggerFor]="afterMenu">After</button>
+<mat-menu #afterMenu="matMenu" xPosition="after">
+  <button mat-menu-item>Item 1</button>
+  <button mat-menu-item>Item 2</button>
+</mat-menu>  -->
