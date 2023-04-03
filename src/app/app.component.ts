@@ -44,6 +44,11 @@ export class AppComponent implements OnInit{
         link:"about"
       }
     ]
+  },
+  {
+  pageTitle: 'Kontakt',
+  link: 'contact',
+  subPages:[]
   }
 ]
 
